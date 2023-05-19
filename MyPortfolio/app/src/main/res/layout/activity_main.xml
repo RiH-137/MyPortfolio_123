@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oop"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        tools:srcCompat="@drawable/linkedindp"
+        />
+
+    <TextView
+        android:id="@+id/tVName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Rishi Ranjan" />
+
+    <TextView
+        android:id="@+id/tVDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+
+        android:text="1st year undergraduate Student and Developer" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnskills"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Skills"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/design_default_color_on_primary"
+            android:backgroundTint="#1B263B"/>
+        <Button
+            android:id="@+id/btneducation"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Education"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:backgroundTint="#DC2F02"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnwork"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:text="Work" />
+        <Button
+            android:id="@+id/btnach"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_primary_variant"
+            android:text="Achievements" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_margin="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For more...."
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btngit"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="25dp"
+
+            app:srcCompat="@drawable/git" />
+
+
+        <ImageView
+            android:id="@+id/btnlink"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="25dp"
+            app:srcCompat="@drawable/logol" />
+    </LinearLayout>
+
+</LinearLayout>
